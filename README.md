@@ -9,6 +9,7 @@ Vim plugin for enhanced man page lookups
 While in visual-mode, a user can lookup shell code using an online
 enhanced man page database which allows lookup of commands with options
 ex: 'ls -l'
+Currently supports online-only use
 
 ----------
 
@@ -40,14 +41,12 @@ Works on
 ---
 *nix platforms that support `curl` and `tput` comands with Vim >= 7.4
 
-FAQ'S
----
-404 errors: check internet connection
 
 TODO's
 ---
 - Error handling for no-internet/bad api call
 - Offline support
+- FAQ's
 
 
   [1]: http://math.stackexchange.com/
